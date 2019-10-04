@@ -1,0 +1,15 @@
+venv/
+static/
+staticfiles/
+media/
+secret/
+
+# Different settings on production...
+#blog_thing/settings.py
+
+# We dont need the different pyc files
+__pycache__/*
+__pycache__/
+*.pyc
+
+migrations/
